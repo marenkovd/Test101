@@ -15,6 +15,10 @@ app.get('/health', function (req, res) {
   res.send('');
 });
 
+app.get('/foo', function (req, res) {
+  res.send('bar\n');
+});
+
 
 app.listen(PORT);
 console.log('Running on http://localhost:' + PORT);
