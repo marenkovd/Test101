@@ -16,7 +16,7 @@ app.get('/health', function (req, res) {
 });
 
 app.get('/foo', function (req, res) {
-  res.send('bar\n');
+  res.send('bar1\n');
 });
 
 
